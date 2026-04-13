@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1a73e8">
+    <meta name="description" content="Booth Data Manager - PWA">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+    <title>বুথ ডাটা ম্যানেজার</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📋 বুথ ডাটা ম্যানেজার</h1>
+            <p class="subtitle">নাগরাকাটা মণ্ডল-১ | জলপাইগুড়ি</p>
+        </div>
+
+        <div class="stats-bar" id="statsBar">
+            <div class="stat">📊 মোট বুথ: <span id="totalBooths">0</span></div>
+            <div class="stat">👥 মোট কর্মী: <span id="totalWorkers">0</span></div>
+            <div class="stat">🏢 শক্তি কেন্দ্র: <span id="totalShakti">0</span></div>
+        </div>
+
+        <div class="toolbar">
+            <div class="file-upload-area">
+                <label for="fileInput" class="btn btn-outline">📁 JSON আপলোড</label>
+                <input type="file" id="fileInput" accept=".json,.xlsx,.xls" style="display:none">
+                <span id="fileName" class="file-name">কোনো ফাইল সিলেক্ট করা হয়নি</span>
+            </div>
+            <button id="downloadJsonBtn" class="btn btn-primary">📥 JSON ডাউনলোড</button>
+            <button id="downloadExcelBtn" class="btn btn-success">📊 Excel ডাউনলোড</button>
+            <button id="addNewBtn" class="btn btn-warning">➕ নতুন এন্ট্রি</button>
+            <button id="resetDataBtn" class="btn btn-danger">🔄 ডিফল্ট ডেটা রিস্টোর</button>
+        </div>
+
+        <div class="search-area">
+            <input type="text" id="searchBox" class="search-box" placeholder="🔍 খুঁজুন (নাম, বুথ নম্বর, ফোন, শক্তি কেন্দ্র...)">
+            <select id="filterShakti" class="filter-select">
+                <option value="">সব শক্তি কেন্দ্র</option>
+            </select>
+        </div>
+
+        <div id="statusMsg" class="status"></div>
+
+        <div class="table-wrapper">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>ক্রমিক</th>
+                        <th>শক্তি কেন্দ্র</th>
+                        <th>বুথ নং</th>
+                        <th>বুথের নাম</th>
+                        <th>বুথ প্রমুখ</th>
+                        <th>ফোন নং</th>
+                        <th>BLA SIR</th>
+                        <th>ফোন নং</th>
+                        <th>অ্যাকশন</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal for Add/Edit -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h3 id="modalTitle">এন্ট্রি যোগ/এডিট করুন</h3>
+            <input type="hidden" id="editIndex">
+            <div class="form-group">
+                <label>শক্তি কেন্দ্র</label>
+                <input type="text" id="editShakti" placeholder="যেমন: Saktikandra - 1">
+            </div>
+            <div class="form-group">
+                <label>বুথ নম্বর</label>
+                <input type="text" id="editBoothNo" placeholder="যেমন: 101">
+            </div>
+            <div class="form-group">
+                <label>বুথের নাম</label>
+                <input type="text" id="editBoothName" placeholder="স্কুল/কেন্দ্রের নাম">
+            </div>
+            <div class="form-group">
+                <label>বুথ প্রমুখের নাম</label>
+                <input type="text" id="editPramukh" placeholder="নাম">
+            </div>
+            <div class="form-group">
+                <label>বুথ প্রমুখের ফোন</label>
+                <input type="tel" id="editPramukhPhone" placeholder="10 ডিজিটের মোবাইল নম্বর">
+            </div>
+            <div class="form-group">
+                <label>BLA SIR এর নাম</label>
+                <input type="text" id="editBLA" placeholder="নাম">
+            </div>
+            <div class="form-group">
+                <label>BLA SIR এর ফোন</label>
+                <input type="tel" id="editBLAPhone" placeholder="10 ডিজিটের মোবাইল নম্বর">
+            </div>
+            <div class="modal-buttons">
+                <button id="saveBtn" class="btn btn-success">💾 সংরক্ষণ করুন</button>
+                <button id="cancelBtn" class="btn btn-secondary">বাতিল</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
