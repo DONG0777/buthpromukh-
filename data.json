@@ -1,11 +1,236 @@
 [
   {
     "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "1",
+    "Booth Name": "Samsung High School",
+    "Booth Pramukh": "Ramkumar Kimi",
+    "Booth Phone": "8116581507",
+    "BLA SIR": "Samir Bhujel",
+    "BLA Phone": "8389036233"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "2",
+    "Booth Name": "Samsung High School",
+    "Booth Pramukh": "Amit Thapa",
+    "Booth Phone": "9907259951",
+    "BLA SIR": "Dipchand Mangar",
+    "BLA Phone": "7797454983"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "3",
+    "Booth Name": "Samsung Cha Bagan 1 No. B.F.P School",
+    "Booth Pramukh": "Akash Chhetri",
+    "Booth Phone": "7838440602",
+    "BLA SIR": "Dipchand Mangar",
+    "BLA Phone": "7797454983"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "4",
+    "Booth Name": "Samsung Cha Bagan 1 No. B.F.P School",
+    "Booth Pramukh": "Dipesh Thapa",
+    "Booth Phone": "7838185895",
+    "BLA SIR": "",
+    "BLA Phone": ""
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 2",
+    "Booth No": "5",
+    "Booth Name": "Samsung Cha Bagan 2 No B.F.P School",
+    "Booth Pramukh": "Sona Bardewa",
+    "Booth Phone": "8597029734",
+    "BLA SIR": "Sudarsan Rai",
+    "BLA Phone": "7872303814"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 2",
+    "Booth No": "6",
+    "Booth Name": "Samsung Cha Bagan 2 No B.F.P School",
+    "Booth Pramukh": "Michael Mini",
+    "Booth Phone": "7063675910",
+    "BLA SIR": "Subhash Sarki",
+    "BLA Phone": "6297434560"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 2",
+    "Booth No": "7",
+    "Booth Name": "Yongtong Cha Bagan B.F.P. School",
+    "Booth Pramukh": "Jeet Bahadur Chhetri",
+    "Booth Phone": "8145846034",
+    "BLA SIR": "",
+    "BLA Phone": ""
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 3",
+    "Booth No": "8",
+    "Booth Name": "Murti Cha Bagan Amlala S.S.K.",
+    "Booth Pramukh": "Fulchand Oraon",
+    "Booth Phone": "7047834046",
+    "BLA SIR": "Jagdish Urya",
+    "BLA Phone": "8101166899"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 3",
+    "Booth No": "9",
+    "Booth Name": "Murti Cha Bagan Amlala S.S.K.",
+    "Booth Pramukh": "Nabindar Chik Baraik",
+    "Booth Phone": "7865941825",
+    "BLA SIR": "Jagdish Urya",
+    "BLA Phone": "8101166899"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 3",
+    "Booth No": "10",
+    "Booth Name": "Murti Cha Bagan Prathamik Bidyalay",
+    "Booth Pramukh": "Madhusudhan Ming",
+    "Booth Phone": "9641878767",
+    "BLA SIR": "Madhusudhan Ming",
+    "BLA Phone": "9641878767"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 4",
+    "Booth No": "11",
+    "Booth Name": "Matiali T.C. Puca Line S.S.K.",
+    "Booth Pramukh": "Hemraj Kujur",
+    "Booth Phone": "9593393021",
+    "BLA SIR": "Jiten Toppo",
+    "BLA Phone": "7363039904"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 4",
+    "Booth No": "12",
+    "Booth Name": "Matiali Cha Bagan Factory Line KDS Centre",
+    "Booth Pramukh": "Kismat Kachhua",
+    "Booth Phone": "8158833208",
+    "BLA SIR": "Jiten Toppo",
+    "BLA Phone": "7363039904"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 4",
+    "Booth No": "13",
+    "Booth Name": "Matiali Cha Bagan Prathamik Bidyalay",
+    "Booth Pramukh": "Ambika Bawan",
+    "Booth Phone": "7908061329",
+    "BLA SIR": "Deepak Chhetri",
+    "BLA Phone": "7363039904"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 5",
+    "Booth No": "17",
+    "Booth Name": "Sai M.S.K.",
+    "Booth Pramukh": "Dipen Pradhan",
+    "Booth Phone": "7076898106",
+    "BLA SIR": "Dipen Pradhan",
+    "BLA Phone": "7076898106"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 6",
+    "Booth No": "20",
+    "Booth Name": "Engo Cha Bagan B.F.P. School",
+    "Booth Pramukh": "Dipak Routiya",
+    "Booth Phone": "8942035119",
+    "BLA SIR": "Sadin Sonar",
+    "BLA Phone": "8653867676"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 9",
+    "Booth No": "36",
+    "Booth Name": "Mother Teresa S.S.K, Chalsa T.G",
+    "Booth Pramukh": "Nakul Naik",
+    "Booth Phone": "7319075646",
+    "BLA SIR": "Jain Kalandi",
+    "BLA Phone": "7047177974"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 9",
+    "Booth No": "37",
+    "Booth Name": "Chalsa Cha Bagan B.F.P. School",
+    "Booth Pramukh": "Amit Kawar",
+    "Booth Phone": "9775874340",
+    "BLA SIR": "Amit Chhetri",
+    "BLA Phone": "9593384689"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "42",
+    "Booth Name": "Killcott Cha Bagan Hindi Prathamik Bidyalay",
+    "Booth Pramukh": "Sagar Oraon",
+    "Booth Phone": "8927370034",
+    "BLA SIR": "Jaya Kachhuya Oraon",
+    "BLA Phone": "8927370034"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "43",
+    "Booth Name": "Killcott Cha Bagan Hindi Prathamik Bidyalay",
+    "Booth Pramukh": "Bijesh Kharia",
+    "Booth Phone": "6294585937",
+    "BLA SIR": "Elyakim Kharia",
+    "BLA Phone": "6294585937"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "44",
+    "Booth Name": "Killcott Cha Bagan Prathamik Bidyalay",
+    "Booth Pramukh": "Sagar Toppo",
+    "Booth Phone": "6296316526",
+    "BLA SIR": "Budhman Oraon",
+    "BLA Phone": "6296316526"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 2",
+    "Booth No": "46",
+    "Booth Name": "Aibheel Cha Bagan Primary School",
+    "Booth Pramukh": "Ram Oraon",
+    "Booth Phone": "8101512388",
+    "BLA SIR": "Ajay Oraon",
+    "BLA Phone": "8101512388"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 2",
+    "Booth No": "47",
+    "Booth Name": "Aibheel TG Junior High School",
+    "Booth Pramukh": "Sagar Toppo",
+    "Booth Phone": "6296316526",
+    "BLA SIR": "Budhman Oraon",
+    "BLA Phone": "6296316526"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
     "Booth No": "101",
     "Booth Name": "Upper Jiti Primary School",
-    "Booth Pramukh": "Manoj Xalco",
+    "Booth Pramukh": "Manoj Xalxo",
     "Booth Phone": "9083406967",
     "BLA SIR": "Pancham Kurmi",
     "BLA Phone": "7063725541"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "102",
+    "Booth Name": "Jal Mathi Line S.S.K.",
+    "Booth Pramukh": "Gopal Mangar",
+    "Booth Phone": "6296671382",
+    "BLA SIR": "Fulmuni Munda",
+    "BLA Phone": "7477520877"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "103",
+    "Booth Name": "Jiti TG Primary School",
+    "Booth Pramukh": "Rayansh Panna",
+    "Booth Phone": "7318662690",
+    "BLA SIR": "Santosh Kr Hathi",
+    "BLA Phone": "9733443229"
+  },
+  {
+    "Shakti Kendra": "Saktikandra - 1",
+    "Booth No": "104",
+    "Booth Name": "Jiti T.G. Junior High School",
+    "Booth Pramukh": "Niku Mundra",
+    "Booth Phone": "7047104733",
+    "BLA SIR": "Bond Singh",
+    "BLA Phone": "7047104733"
   }
 ]
